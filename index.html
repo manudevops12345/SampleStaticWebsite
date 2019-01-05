@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.10/css/mdb.min.css" rel="stylesheet">
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.10/js/mdb.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js">
+
+</head>
+<style>
+  #login {
+    font-family: "Lato", sans-serif;
+    color: black;
+    background: url(reg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+  }
+
+  label{
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-top: 10px;
+
+    alignment: center;
+    height: 50px;
+  }
+  .card-fat {
+    background-color: rgba(255, 250, 250, 0.7)
+  }
+
+</style>
+<body id="login">
+<div class="row">
+  <div class="col-lg-4"></div>
+  <div class="col-lg-4 col-md-12">
+    <div class="card-fat mt-2">
+      <div class="card-body text-center">
+        <form class="p-3" method="post">
+          <div class="fa fa-user fa-5x"></div>
+          <p class="h4 mb-4">Sign in</p>
+
+          <!-- Email -->
+
+          <input type="text" id="txt_id" name="txt_id" class="form-control mb-4" placeholder="MIS Id">
+
+          <!-- Password -->
+
+          <input type="password" id="txt_pass" name="txt_pass" class="form-control mb-4" placeholder="Password">
+
+
+          <select class="form-control mb-4" name="type">
+            <option value="user">User</option>
+            <option value="teacher">Teacher</option>
+            <option value="admin">Admin</option>
+          </select>
+
+          <!-- Sign in button -->
+          <a type="submit" href="booking.html" class="btn btn-info btn-block my-4"> Sign In
+          <div style="color:red">
+          </div></a>
+          <!-- Register -->
+          <p>Not a member?
+            <a href="sign_up.html">Register</a>
+          </p>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
